@@ -1,0 +1,38 @@
+{
+  "name": "diet-jade",
+  "version": "1.0.0",
+  "description": "Jade based diet plugin for rendering Jade HTML files",
+  "homepage": "http://github.com/mnzt/diet-jade/",
+  "keywords": [
+    "jade",
+    "html",
+    "parse",
+    "render",
+    "plugin",
+    "diet plugin",
+    "diet",
+    "dietjs",
+    "diet.js"
+  ],
+  "bugs": {
+    "url": "http://github.com/mnzt/diet-jade/issues",
+    "email": "toby@nerdping.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnzt/diet-jade.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "MNZT",
+    "email": "toby@nerdping.com",
+    "url": "http://github.com/mnzt"
+  },
+  "dependencies": {
+    "jade": "^1.11.0"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">= 4.2.2"
+  }
+}
