@@ -1,6 +1,6 @@
 {
   "name": "diet-jade",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jade based diet plugin for rendering Jade HTML files",
   "homepage": "http://github.com/mnzt/diet-jade/",
   "keywords": [
