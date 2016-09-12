@@ -17,14 +17,12 @@ module.exports = function(options) {
   return function($) {
     $.render = function(filename) {
       $.header('Content-Type', 'text/html; charset=UTF-8')
-      console.log(filename);
       filename ? (filename.indexOf('.jade')>-1 ? (options.file = filename) : (options.file = filename + '.jade')) : ($.error('No jade file specified'))
       var path = (options.path.slice(-1) === '/') ? options.path : options.path + '/'
       var fn = jade.compileFile(path + options.file, {
         pretty: true,
       })
       var html = fn($.data)
-      // console.log(html);
       $.end(html)
     }
     $.return()
